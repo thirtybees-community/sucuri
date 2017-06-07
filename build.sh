@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 CWD_BASENAME=${PWD##*/}
 
-FILES=("${CWD_BASENAME}.php")
+FILES=("logo.png")
+FILES+=("logo.gif")
+FILES+=("${CWD_BASENAME}.php")
 FILES+=("classes/**")
 
 MODULE_VERSION="$(sed -ne "s/\\\$this->version *= *['\"]\([^'\"]*\)['\"] *;.*/\1/p" ${CWD_BASENAME}.php)"
