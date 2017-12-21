@@ -1,0 +1,13 @@
+module_name: Sucuri Module
+compatible_versions: 1.0.0+
+author: thirty bees
+category: administration
+tags:
+  - sucuri
+  - malware
+  - virus
+description_short: The Sucuri module allows you to clear the Sucuri cache from your back office.
+description: description.md
+images:
+  - image-1.png
+license: MIT

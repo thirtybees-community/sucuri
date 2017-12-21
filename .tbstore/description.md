@@ -1,0 +1,1 @@
+The Sucuri module will allow you to clear your Sucuri cache from the back office quickly and easily.
